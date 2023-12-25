@@ -21,8 +21,7 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav
-      class="absolute w-screen px-1 py-0 overflow-hidden bg-white navbar nav">
+    <nav class="absolute w-screen overflow-hidden bg-white navbar nav">
       <div class="flex items-center justify-between mx-10 nav-menu">
         <div class="nav-brand">
           <a class="block py-4 text-2xl" href="" class="">Blooger</a>
@@ -31,7 +30,7 @@
           <div class="toggle-icons"></div>
           <i class="fas fa-bars"></i>
         </div>
-        <div>
+        <div class="dropdown">
           <ul class="flex gap-2 m-0 nav-items">
             <li class="nav-link">
               <a href="#home">Home</a>
@@ -648,7 +647,7 @@
       const toggle = document.querySelector(".toggle-collapse");
 
       toggle.addEventListener("click", function () {
-        nav.style.height = nav.style.height === "100vh" ? "9vh" : "100vh";
+        nav.style.height = nav.style.height === "100vh" ? "10vh" : "100vh";
       });
     </script>
 

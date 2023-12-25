@@ -19,8 +19,7 @@ body {
 
 /* Navbar */
 .nav {
-  height: 0rem;
-  min-height: 10vh;
+  height: 10vh;
   transition: height 0.2s ease-in-out;
   z-index: 30;
 }
@@ -39,7 +38,7 @@ nav.navbar {
 }
 
 .nav .nav-items .nav-link {
-  padding: 1.8rem 1rem;
+  padding: 1.5rem 1rem;
   font-size: 0.9rem;
   position: relative;
 }
@@ -55,15 +54,17 @@ nav.navbar {
 
 @media (max-width: 850px) {
   .nav {
-    height: 0rem;
-    min-height: 10vh;
+    height: 10vh;
+  }
+
+  nav .dropdown {
+    margin-top: 1rem;
   }
 }
 
 @media (max-width: 650px) {
   .nav {
-    height: 0rem;
-    min-height: 9vh;
+    height: 10vh;
   }
 
   .nav .toggle-collapse {
