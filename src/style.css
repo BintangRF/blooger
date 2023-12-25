@@ -101,7 +101,7 @@ nav.navbar {
 /* ------------------------------- */
 
 .blog {
-  background: url(/assets/Abract01.png);
+  background: url(../assets/Abract01.png);
   background-repeat: no-repeat;
   background-position: right;
   width: 100%;
