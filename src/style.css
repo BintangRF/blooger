@@ -82,7 +82,7 @@ nav.navbar {
 
 .site-title::before {
   content: "";
-  background: url(/assets/Background-image.png);
+  background: url(../assets/Background-image.png);
   position: absolute;
   top: 5%;
   left: 0%;
